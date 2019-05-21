@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20B029062294971400D388EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B029052294971400D388EB /* AppDelegate.swift */; };
+		20B029082294971400D388EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B029072294971400D388EB /* ViewController.swift */; };
+		20B0290A2294971600D388EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B029092294971600D388EB /* Assets.xcassets */; };
+		20B0290D2294971600D388EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B0290B2294971600D388EB /* Main.storyboard */; };
+		20B029192294971600D388EB /* QuadFormProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B029182294971600D388EB /* QuadFormProTests.swift */; };
+		20B029242294971600D388EB /* QuadFormProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B029232294971600D388EB /* QuadFormProUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20B029152294971600D388EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B028FA2294971400D388EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B029012294971400D388EB;
+			remoteInfo = QuadFormPro;
+		};
+		20B029202294971600D388EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20B028FA2294971400D388EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B029012294971400D388EB;
+			remoteInfo = QuadFormPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20B029022294971400D388EB /* QuadFormPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuadFormPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B029052294971400D388EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20B029072294971400D388EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20B029092294971600D388EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20B0290C2294971600D388EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20B0290E2294971600D388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B0290F2294971600D388EB /* QuadFormPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuadFormPro.entitlements; sourceTree = "<group>"; };
+		20B029142294971600D388EB /* QuadFormProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadFormProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B029182294971600D388EB /* QuadFormProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadFormProTests.swift; sourceTree = "<group>"; };
+		20B0291A2294971600D388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20B0291F2294971600D388EB /* QuadFormProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadFormProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B029232294971600D388EB /* QuadFormProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadFormProUITests.swift; sourceTree = "<group>"; };
+		20B029252294971600D388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20B028FF2294971400D388EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B029112294971600D388EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B0291C2294971600D388EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B028F92294971400D388EB = {
+			isa = PBXGroup;
+			children = (
+				20B029042294971400D388EB /* QuadFormPro */,
+				20B029172294971600D388EB /* QuadFormProTests */,
+				20B029222294971600D388EB /* QuadFormProUITests */,
+				20B029032294971400D388EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20B029032294971400D388EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20B029022294971400D388EB /* QuadFormPro.app */,
+				20B029142294971600D388EB /* QuadFormProTests.xctest */,
+				20B0291F2294971600D388EB /* QuadFormProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20B029042294971400D388EB /* QuadFormPro */ = {
+			isa = PBXGroup;
+			children = (
+				20B029052294971400D388EB /* AppDelegate.swift */,
+				20B029072294971400D388EB /* ViewController.swift */,
+				20B029092294971600D388EB /* Assets.xcassets */,
+				20B0290B2294971600D388EB /* Main.storyboard */,
+				20B0290E2294971600D388EB /* Info.plist */,
+				20B0290F2294971600D388EB /* QuadFormPro.entitlements */,
+			);
+			path = QuadFormPro;
+			sourceTree = "<group>";
+		};
+		20B029172294971600D388EB /* QuadFormProTests */ = {
+			isa = PBXGroup;
+			children = (
+				20B029182294971600D388EB /* QuadFormProTests.swift */,
+				20B0291A2294971600D388EB /* Info.plist */,
+			);
+			path = QuadFormProTests;
+			sourceTree = "<group>";
+		};
+		20B029222294971600D388EB /* QuadFormProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20B029232294971600D388EB /* QuadFormProUITests.swift */,
+				20B029252294971600D388EB /* Info.plist */,
+			);
+			path = QuadFormProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20B029012294971400D388EB /* QuadFormPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B029282294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormPro" */;
+			buildPhases = (
+				20B028FE2294971400D388EB /* Sources */,
+				20B028FF2294971400D388EB /* Frameworks */,
+				20B029002294971400D388EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuadFormPro;
+			productName = QuadFormPro;
+			productReference = 20B029022294971400D388EB /* QuadFormPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20B029132294971600D388EB /* QuadFormProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B0292B2294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormProTests" */;
+			buildPhases = (
+				20B029102294971600D388EB /* Sources */,
+				20B029112294971600D388EB /* Frameworks */,
+				20B029122294971600D388EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B029162294971600D388EB /* PBXTargetDependency */,
+			);
+			name = QuadFormProTests;
+			productName = QuadFormProTests;
+			productReference = 20B029142294971600D388EB /* QuadFormProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20B0291E2294971600D388EB /* QuadFormProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B0292E2294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormProUITests" */;
+			buildPhases = (
+				20B0291B2294971600D388EB /* Sources */,
+				20B0291C2294971600D388EB /* Frameworks */,
+				20B0291D2294971600D388EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B029212294971600D388EB /* PBXTargetDependency */,
+			);
+			name = QuadFormProUITests;
+			productName = QuadFormProUITests;
+			productReference = 20B0291F2294971600D388EB /* QuadFormProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20B028FA2294971400D388EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = V0LT;
+				TargetAttributes = {
+					20B029012294971400D388EB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					20B029132294971600D388EB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 20B029012294971400D388EB;
+					};
+					20B0291E2294971600D388EB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 20B029012294971400D388EB;
+					};
+				};
+			};
+			buildConfigurationList = 20B028FD2294971400D388EB /* Build configuration list for PBXProject "QuadFormPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20B028F92294971400D388EB;
+			productRefGroup = 20B029032294971400D388EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B029012294971400D388EB /* QuadFormPro */,
+				20B029132294971600D388EB /* QuadFormProTests */,
+				20B0291E2294971600D388EB /* QuadFormProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20B029002294971400D388EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B0290A2294971600D388EB /* Assets.xcassets in Resources */,
+				20B0290D2294971600D388EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B029122294971600D388EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B0291D2294971600D388EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20B028FE2294971400D388EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B029082294971400D388EB /* ViewController.swift in Sources */,
+				20B029062294971400D388EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B029102294971600D388EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B029192294971600D388EB /* QuadFormProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20B0291B2294971600D388EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B029242294971600D388EB /* QuadFormProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B029162294971600D388EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B029012294971400D388EB /* QuadFormPro */;
+			targetProxy = 20B029152294971600D388EB /* PBXContainerItemProxy */;
+		};
+		20B029212294971600D388EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20B029012294971400D388EB /* QuadFormPro */;
+			targetProxy = 20B029202294971600D388EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20B0290B2294971600D388EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20B0290C2294971600D388EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20B029262294971600D388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20B029272294971600D388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		20B029292294971600D388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuadFormPro/QuadFormPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20B0292A2294971600D388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuadFormPro/QuadFormPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20B0292C2294971600D388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadFormPro.app/Contents/MacOS/QuadFormPro";
+			};
+			name = Debug;
+		};
+		20B0292D2294971600D388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuadFormPro.app/Contents/MacOS/QuadFormPro";
+			};
+			name = Release;
+		};
+		20B0292F2294971600D388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuadFormPro;
+			};
+			name = Debug;
+		};
+		20B029302294971600D388EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4878M4K74Y;
+				INFOPLIST_FILE = QuadFormProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = V0LT.QuadFormProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuadFormPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B028FD2294971400D388EB /* Build configuration list for PBXProject "QuadFormPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B029262294971600D388EB /* Debug */,
+				20B029272294971600D388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B029282294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B029292294971600D388EB /* Debug */,
+				20B0292A2294971600D388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B0292B2294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B0292C2294971600D388EB /* Debug */,
+				20B0292D2294971600D388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20B0292E2294971600D388EB /* Build configuration list for PBXNativeTarget "QuadFormProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20B0292F2294971600D388EB /* Debug */,
+				20B029302294971600D388EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20B028FA2294971400D388EB /* Project object */;
+}
