@@ -2,9 +2,6 @@
 A simple tool for determining the roots/factors of a quadratic, as well as the descriminant.
 ![QuadFormPro Logo](https://v0lttech.com/assets/img/quadformprologo.png)
 
-## License
-Licensed under the V0LT Source Code License: https://v0lttech.com/files/documents/licenses/VoltSourceCodeLicense.pdf
-
 ## Binaries
 A complied version can be downloaded at https://v0lttech.com/quadformpro.php
 
