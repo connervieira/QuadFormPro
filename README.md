@@ -13,7 +13,7 @@ The entire application is purpose built, so there aren't any complex controls to
 Once you finish a calculation, you can quickly get your result to wherever it needs to be with just the click of a button.
 
 ### Dark Mode Supported
-QuadForm Pro supports MacOS Mojave's Dark Mode, so it will mesh beautifully with the rest of your MacOS applications.
+QuadForm Pro supports the dark mode built into MacOS Mojave and later, so it will mesh beautifully with the rest of your MacOS applications.
 
 ### Compact
 The application is compact both visually, and digitally. Its only 12MB, and its UI size ensures it won't get in the way of other applications.
